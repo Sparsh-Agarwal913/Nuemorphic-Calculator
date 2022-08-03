@@ -1,0 +1,102 @@
+body {
+  font-family: sans-serif;
+  background: #1d1d1d;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 50px;
+  min-width: 550px;
+  max-width: 550px;
+  background: linear-gradient(145deg, #1d1d1d, #1a1a1a);
+  box-shadow: 4px 4px 10px #101010, -4px -4px 10px #2a2a2a;
+  align-items: center;
+}
+.container:hover {
+  box-shadow: 3px 3px 9px #101010, -3px -3px 9px #2a2a2a;
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  padding: 0;
+  margin: 15px 20px;
+  border: none;
+  border-radius: 25px;
+  height: 75px;
+  width: 75px;
+  color: #aaa;
+  background: #1d1d1d;
+  box-shadow: 6px 6px 15px #101010, -6px -6px 15px #2a2a2a;
+}
+.button:active {
+  background: #1d1d1d;
+  box-shadow: inset 4px 4px 15px #101010, inset -4px -4px 15px #2a2a2a;
+  border: none;
+  outline: none;
+  color: #eee;
+}
+button:focus {
+  outline: none;
+}
+button:hover {
+  background: #1d1d1d;
+  box-shadow: 4px 4px 15px #101010, -4px -4px 15px #2a2a2a;
+  border: none;
+  color: #ccc;
+}
+.btnc:hover {
+  box-shadow: 4px 4px 15px #171010, -4px -4px 15px #2a2a2a;
+  color: #ff3838;
+}
+.btnc:active {
+  box-shadow: inset 6px 6px 15px #101010, inset -6px -6px 15px #2a2a2a;
+  color: #cf3232;
+}
+.btna:hover {
+  box-shadow: 6px 6px 15px #101910, -6px -6px 15px #2a2f2a;
+  color: #70ff38;
+}
+.btna:active {
+  box-shadow: inset 6px 6px 15px #101010, inset -6px -6px 15px #2a2a2a;
+  color: #32cf32;
+}
+.col {
+  padding: 0;
+}
+.form-control[readonly] {
+  height: 100px;
+  width: 500px;
+  font-size: 40px;
+  color: #aaa;
+  text-align: right;
+  border: none;
+  border-radius: 20px;
+  background: #1a1a1a;
+  box-shadow: inset 10px 10px 25px #101010, inset -10px -10px 25px #2a2a2a;
+}
+.expression {
+  padding-bottom: 25px;
+  padding-top: 35px;
+  align-items: center;
+  text-align: right;
+  justify-content: center;
+  display: flex;
+}
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.numpad {
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  min-width: 550px;
+  align-items: center;
+  align-items: center;
+}

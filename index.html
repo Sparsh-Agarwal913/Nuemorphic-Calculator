@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Neumorphic Calculator</title>
+    <meta charset="UTF-8" />
+    <link rel="“stylesheet”" href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/6036deda74.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="expression">
+        <input
+          type="text"
+          class="form-control"
+          name="expression"
+          id="expression"
+          readonly
+        />
+      </div>
+      <div class="numpad">
+        <div class="row justify-content-evenly">
+          <div class="col"><button class="button btnc">C</button></div>
+          <div class="col">
+            <button class="button" name="root">
+              <i class="fa-solid fa-square-root-variable" name="root"></i>
+            </button>
+          </div>
+          <div class="col"><button class="button">^</button></div>
+          <div class="col"><button class="button btnc">AC</button></div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col"><button class="button">7</button></div>
+          <div class="col"><button class="button">8</button></div>
+          <div class="col"><button class="button">9</button></div>
+          <div class="col">
+            <button class="button" name="/">
+              <i class="fa-solid fa-divide" name="/"></i>
+            </button>
+          </div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col"><button class="button">4</button></div>
+          <div class="col"><button class="button">5</button></div>
+          <div class="col"><button class="button">6</button></div>
+          <div class="col">
+            <button class="button" name="*">
+              <i class="fa-solid fa-xmark" name="*"></i>
+            </button>
+          </div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col"><button class="button">1</button></div>
+          <div class="col"><button class="button">2</button></div>
+          <div class="col"><button class="button">3</button></div>
+          <div class="col"><button class="button">-</button></div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col"><button class="button">0</button></div>
+          <div class="col"><button class="button">.</button></div>
+          <div class="col"><button class="button btna">=</button></div>
+          <div class="col"><button class="button">+</button></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
